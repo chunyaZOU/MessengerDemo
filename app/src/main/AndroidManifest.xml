@@ -18,8 +18,13 @@
         </activity>
 
         <service
-            android:name=".ServerService"
+            android:name=".MessengerService"
             android:process=":ser" />
+
+
+        <service
+            android:name=".AidlService"
+            android:process=":aidl" />
     </application>
 
 </manifest>
